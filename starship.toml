@@ -47,9 +47,6 @@ map_symbol = true
 pipestatus = true
 symbol = " ⚓"
 
-[aws]
-symbol = " "
-
 [conda]
 symbol = " "
 
@@ -105,7 +102,5 @@ symbol = " "
 symbol = " "
 
 [rust]
-symbol = " "
-
-[swift]
-symbol = "ﯣ "
+#symbol = " "
+symbol = "🦀 "
