@@ -1,4 +1,5 @@
 ## FIRST LINE/ROW: Info & Status
+command_timeout = 1000
 # First param ─┌
 [username]
 format = "[╭─$user]($style)@"
