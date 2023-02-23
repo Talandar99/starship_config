@@ -103,5 +103,5 @@ symbol = " "
 symbol = " "
 
 [rust]
-#symbol = " "
-symbol = "🦀 "
+symbol = " "
+#symbol = "🦀 "
