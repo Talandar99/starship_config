@@ -43,7 +43,7 @@ success_symbol = "[╰─>>](bold #7aa2f7)"
 # SYMBOLS
 [status]
 disabled = false
-format = '[\[$symbol$status_common_meaning$status_signal_name$status_maybe_int\]]($style)'
+format = '[╰](bold #7aa2f7)[\[$symbol$status_common_meaning$status_signal_name$status_maybe_int\]]($style)'
 map_symbol = true
 pipestatus = true
 symbol = " ⚓"
