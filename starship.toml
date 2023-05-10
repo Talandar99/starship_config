@@ -1,4 +1,4 @@
-## FIRST LINE/ROW: Info & Status
+# FIRST LINE/ROW: Info & Status
 command_timeout = 1000
 # First param ─┌
 [username]
@@ -46,7 +46,7 @@ disabled = false
 format = '[╰](bold #7aa2f7)[\[$symbol$status_common_meaning$status_signal_name$status_maybe_int\]]($style)'
 map_symbol = true
 pipestatus = true
-symbol = " ⚓"
+symbol = "⚓"
 
 [conda]
 symbol = " "
@@ -78,9 +78,6 @@ symbol = " "
 [julia]
 symbol = " "
 
-[nim]
-symbol = " "
-
 [nix_shell]
 symbol = " "
 
@@ -88,7 +85,7 @@ symbol = " "
 symbol = " "
 
 [package]
-symbol = " "
+symbol = "📦 "
 
 [perl]
 symbol = " "
@@ -103,5 +100,5 @@ symbol = " "
 symbol = " "
 
 [rust]
-symbol = " "
-#symbol = "🦀 "
+#symbol = " "
+symbol = "🦀 "
