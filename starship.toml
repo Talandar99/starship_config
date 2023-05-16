@@ -1,12 +1,12 @@
 # FIRST LINE/ROW: Info & Status
 command_timeout = 1000
+#add_newline=false
 # First param ─┌
 [username]
 format = "[╭─$user]($style)@"
 show_always = true
 style_root = "#82AAFF"
 style_user = "#82AAFF"
-
 # Second param
 [hostname]
 disabled = false
@@ -38,12 +38,12 @@ style = "#FFC777"
 # Prompt: param 2
 [character]
 error_symbol = "[×](bold #FFC777)"
-success_symbol = "[╰─>>](bold #7aa2f7)"
+success_symbol = "[╰─>>](bold #82AAFF)"
 
 # SYMBOLS
 [status]
 disabled = false
-format = '[╰](bold #7aa2f7)[\[$symbol$status_common_meaning$status_signal_name$status_maybe_int\]]($style)'
+format = '[╰](bold #82AAFF)[\[$symbol$status_common_meaning$status_signal_name$status_maybe_int\]]($style)'
 map_symbol = true
 pipestatus = true
 symbol = "⚓"
